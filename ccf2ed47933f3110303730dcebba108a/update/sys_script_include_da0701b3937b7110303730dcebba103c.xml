@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1178602_corpor_0.ProjectAccount</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ProjectAccount</name>
+        <script><![CDATA[var ProjectAccount = Class.create();
+ProjectAccount.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    callback: function() {
+        var user = this.getParameter('sysparm_user');
+        gs.info("jhansivar" + this.getParameter('sysparm_user'));
+
+        var gr = new GlideRecord('x_1178602_corpor_0_employee');
+        gr.get("user");
+
+        //gr.query();
+        gs.info("query passed");
+        if (gr.next()) {
+            var result = gr.mobile_phone;
+
+            return result.toString();
+        } else {
+            return "jhansi";
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+    type: 'ProjectAccount'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 14:59:57</sys_created_on>
+        <sys_id>da0701b3937b7110303730dcebba103c</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>ProjectAccount</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_1178602_corpor_0">ccf2ed47933f3110303730dcebba108a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Corporate Gifting">ccf2ed47933f3110303730dcebba108a</sys_scope>
+        <sys_update_name>sys_script_include_da0701b3937b7110303730dcebba103c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-25 11:43:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

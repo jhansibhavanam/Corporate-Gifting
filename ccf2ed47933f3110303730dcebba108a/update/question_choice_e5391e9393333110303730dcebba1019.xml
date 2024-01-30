@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Quantity">0df852d393333110303730dcebba10ab</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 07:41:53</sys_created_on>
+        <sys_id>e5391e9393333110303730dcebba1019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_1178602_corpor_0">ccf2ed47933f3110303730dcebba108a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">ccf2ed47933f3110303730dcebba108a</sys_scope>
+        <sys_update_name>question_choice_e5391e9393333110303730dcebba1019</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 07:41:53</sys_updated_on>
+        <text>5</text>
+        <value>5</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e5391e9393333110303730dcebba1019"/>
+</record_update>

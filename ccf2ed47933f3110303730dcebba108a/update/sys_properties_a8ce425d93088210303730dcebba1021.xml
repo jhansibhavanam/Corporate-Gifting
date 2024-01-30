@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1178602_corpor_0.u_emp_positions</name>
+        <read_roles/>
+        <suffix>u_emp_positions</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-29 12:04:01</sys_created_on>
+        <sys_id>a8ce425d93088210303730dcebba1021</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1178602_corpor_0.u_emp_positions</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_1178602_corpor_0">ccf2ed47933f3110303730dcebba108a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">ccf2ed47933f3110303730dcebba108a</sys_scope>
+        <sys_update_name>sys_properties_a8ce425d93088210303730dcebba1021</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-29 13:27:06</sys_updated_on>
+        <type>string</type>
+        <value>manager,&#13;
+senior_manager,&#13;
+director,&#13;
+delivery_head,&#13;
+hr</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=a8ce425d93088210303730dcebba1021"/>
+</record_update>
